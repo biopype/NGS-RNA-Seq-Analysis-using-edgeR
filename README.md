@@ -1,7 +1,6 @@
 # NGS RNA-Seq Analysis using edgeR  
 ## Differential Gene Expression Analysis (Project 02)
 
----
 
 ## Description
 Crohn’s Disease (CD) is a chronic inflammatory disorder affecting the digestive tract.  
@@ -10,14 +9,12 @@ This project analyzes **RNA-Seq data from ileal biopsies** of pediatric CD patie
 - Reads were aligned to the human reference genome (Ensembl release 95) using HISAT2  
 - Gene-level counts were generated using FeatureCounts  
 
----
 
 ## Objective
 To perform **Differential Gene Expression (DGE)** analysis using **R and edgeR**, and interpret biologically significant patterns between:
 - Crohn’s Disease (CD) samples  
 - Control samples  
 
----
 
 ## Libraries Used
 
@@ -31,7 +28,6 @@ To perform **Differential Gene Expression (DGE)** analysis using **R and edgeR**
 | dplyr | Data manipulation and cleaning |
 | RColorBrewer | Color palettes for plots |
 
----
 
 ## Dataset Overview
 
@@ -39,11 +35,9 @@ To perform **Differential Gene Expression (DGE)** analysis using **R and edgeR**
 - **Total samples:** 304  
 - **Metadata column:** `Category` (CD vs Control)  
 
-Preprocessing:
-- Renamed `"non-inflammatory bowel disease control"` → `"control"`  
+Preprocessing: 
 - Set **control as baseline/reference**  
 
----
 
 ## Data Analysis Workflow
 
@@ -52,13 +46,11 @@ Preprocessing:
 - TMM normalization (library size correction)  
 - Log transformation → **logCPM (Counts Per Million)**  
 
----
 
 ### 2. Sample-to-Sample Analysis
 - Distance heatmap generated  
 - Too dense due to 304 samples → excluded  
 
----
 
 ### 3. MDS Plot (Outlier Detection)
 
@@ -86,7 +78,6 @@ Potential outliers identified beyond **x > 2.5**
 
 Outliers were **not removed**
 
----
 
 ## Differential Gene Expression Analysis
 
@@ -95,9 +86,8 @@ Outliers were **not removed**
 - QL F-test  
 - FDR correction  
 
----
 
-## 📊 Results
+## Results
 
 ### Volcano Plots
 
@@ -107,7 +97,6 @@ Outliers were **not removed**
 #### Figure 4: Gene-labeled Volcano Plot
 ![Labeled Volcano](figure5.png)
 
----
 
 ### Key Findings
 
@@ -119,7 +108,6 @@ Results:
 -  7 upregulated genes  
 -  0 downregulated genes  
 
----
 
 ### Cutoff Comparison
 
@@ -129,7 +117,6 @@ Results:
 | 1e-20 | 5.0 | 10 | 0 |
 | 1e-20 | 5.5 | 7 | 0 |
 
----
 
 ## Heatmap of Significant Genes
 
@@ -142,7 +129,6 @@ Top 30 DEGs (by FDR):
 - Clear expression differences between groups  
 - Strong clustering patterns  
 
----
 
 ## Conclusion
 
@@ -151,7 +137,6 @@ Top 30 DEGs (by FDR):
 - CD samples show **higher biological variability**  
 - Visualizations (MDS, Volcano, Heatmap) helped interpret results  
 
----
 
 ## Future Work
 - GO / KEGG pathway analysis  
@@ -159,7 +144,6 @@ Top 30 DEGs (by FDR):
 - Machine learning models  
 - Biomarker discovery  
 
----
 
 ## Notes
 - Analysis performed in **R (edgeR pipeline)**  
