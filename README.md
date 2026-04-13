@@ -89,11 +89,7 @@ Outliers were **not removed**
 ### Volcano Plots
 
 #### Figure 3: Volcano Plot
-![Volcano Plot](figure4.png)
-
-#### Figure 4: Gene-labeled Volcano Plot
-![Labeled Volcano](figure5.png)
-
+<img width="1902" height="967" alt="volcano without labels" src="https://github.com/user-attachments/assets/1a691baf-41f5-4204-a4cc-11a12135978e" />
 
 ### Key Findings
 
@@ -120,7 +116,7 @@ Results:
 Top 30 DEGs (by FDR):
 
 #### Figure 5: Heatmap
-![Heatmap](figure6.png)
+<img width="1920" height="1013" alt="top 30 DEGs" src="https://github.com/user-attachments/assets/a93bfba5-3fc9-453d-af70-d7d09a96949d" />
 
 **Insights:**
 - Clear expression differences between groups  
