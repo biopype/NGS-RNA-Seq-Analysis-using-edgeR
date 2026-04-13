@@ -1,3 +1,4 @@
+<img width="1920" height="1013" alt="MDS plot without labels" src="https://github.com/user-attachments/assets/4cbf5411-bda4-4955-b0bf-71d3ad4c90bb" />
 # Differential Gene Expression Analysis using edgeR  
 ## Description
 Crohn’s Disease (CD) is a chronic inflammatory disorder affecting the digestive tract.  
@@ -60,7 +61,7 @@ MDS (Multi-Dimensional Scaling) was used to visualize clustering.
 Potential outliers identified beyond **x > 2.5**
 
 #### Figure 1: MDS Plot
-![MDS Plot](output/MDS plot without labels.png)
+![MDS Plot](./output/MDS plot without labels.png)
 
 #### Figure 2: Outlier-labeled MDS Plot
 ![Outlier MDS](figure3.png)
