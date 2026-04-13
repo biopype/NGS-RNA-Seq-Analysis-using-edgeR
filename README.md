@@ -1,5 +1,5 @@
 # NGS RNA-Seq Analysis using edgeR  
-## Differential Gene Expression Analysis (Project 02)
+## Differential Gene Expression Analysis
 
 
 ## Description
