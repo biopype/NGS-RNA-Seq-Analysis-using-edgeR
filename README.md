@@ -60,10 +60,10 @@ MDS (Multi-Dimensional Scaling) was used to visualize clustering.
 Potential outliers identified beyond **x > 2.5**
 
 #### Figure 1: MDS Plot
-![MDS Plot]<img width="1920" height="1013" alt="MDS plot without labels" src="https://github.com/user-attachments/assets/4cbf5411-bda4-4955-b0bf-71d3ad4c90bb" />
+<img width="1482" height="912" alt="MDS plot without labels" src="https://github.com/user-attachments/assets/4cbf5411-bda4-4955-b0bf-71d3ad4c90bb" />
 
 #### Figure 2: Outlier-labeled MDS Plot
-![Outlier MDS](figure3.png)
+<img width="1482" height="912" alt="plot" src="https://github.com/user-attachments/assets/3e209dad-7fe3-4a4c-8fe7-a342c5dcf3af" />
 
 **Outliers:**
 - SRR5862089  
