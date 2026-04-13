@@ -60,7 +60,7 @@ MDS (Multi-Dimensional Scaling) was used to visualize clustering.
 Potential outliers identified beyond **x > 2.5**
 
 #### Figure 1: MDS Plot
-![MDS Plot](figure2.png)
+![MDS Plot](output/MDS plot without labels.png)
 
 #### Figure 2: Outlier-labeled MDS Plot
 ![Outlier MDS](figure3.png)
