@@ -1,7 +1,4 @@
-# NGS RNA-Seq Analysis using edgeR  
-## Differential Gene Expression Analysis
-
-
+# Differential Gene Expression Analysis using edgeR  
 ## Description
 Crohn’s Disease (CD) is a chronic inflammatory disorder affecting the digestive tract.  
 This project analyzes **RNA-Seq data from ileal biopsies** of pediatric CD patients and healthy controls.
